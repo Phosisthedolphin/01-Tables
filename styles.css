@@ -1,0 +1,51 @@
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 250px auto 0;
+    
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width: 50%;
+    box-shadow: 3px 8px 20px 0px lightgray;
+}
+td {
+    background: #e7e7e7;
+    font-size: 20px;
+    padding: 25px;
+    color: #222;
+    border-bottom: 1px solid #d3d3d3;
+}
+body {
+    width: 100%;
+    height: 800px;
+    font-family: sans-serif;
+    
+}
+caption {
+    text-align: left;
+    background: white;
+    font-size: 32px;
+    color: #b22222;
+}
+th {
+    text-align: left;
+    background: #b22222;
+    font-size: 22px;
+    padding: 28px;
+    color: #ddd;
+    font-weight: 100
+}
+td:nth-child(1) {
+    background: #ddd;
+}
+td:nth-child(2) {
+    text-align: right;
+    background: #fff;
+}
+td:nth-child(3) {
+    text-align: right;
+    background: #fff;
+}
